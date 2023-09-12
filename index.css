@@ -1,0 +1,49 @@
+body {
+    background-color: #f5ead7;
+}
+
+h1 {
+    color: #c4613d;
+    font-family: 'Monaco', monospace;
+}
+
+.container {
+    background-color: #e6ca9a;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container:first-child {
+    flex-basis: 33%;
+}
+
+.column:last-child {
+    flex-basis: 67%;
+}
+
+p, li {
+    color: #543b30;
+    font-family: 'Garamond', serif;
+}
+
+h3 {
+    color: #c4613d;
+    font-family: 'Monaco', monospace;
+}
+
+nav {
+    background-color: #e6ca9a;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+a {
+    color: #749960;
+    font-size: 0.75em;
+    font-family: 'Monaco', monospace;
+}
+
+a:hover {
+    color: #543b30;
+}
