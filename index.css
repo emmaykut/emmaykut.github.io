@@ -14,11 +14,26 @@ h1 {
 }
 
 .container:first-child {
-    flex-basis: 33%;
+    flex-basis: 215%;
+    padding: 20px;
 }
 
 .column:last-child {
-    flex-basis: 67%;
+    flex-basis: 85%;
+    padding-left: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#courses {
+    flex-basis: 50%;
+}
+
+#experience {
+    flex-basis: 50%;
 }
 
 p {
